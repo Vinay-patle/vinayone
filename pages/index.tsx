@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
+import Education from "@/components/education"
 import Footer from "@/components/Footer";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
@@ -16,7 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>Vinay Patle</title>
-        <meta name="description" content="this is a personal portfolio." />
+        <meta name="description" content="this is a personal portfolio.  " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.ico" />
       </Head>
@@ -34,6 +35,7 @@ export default function Home() {
           <div className="h-[88vh] mx-auto p-4">
             <Banner />
             <About />
+            <Education />
             <Experience />
             <Projects />
             <Archive />
